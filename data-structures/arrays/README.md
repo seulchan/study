@@ -1,3 +1,3 @@
 # Arrays
 
-[Static Array](static_array.py)
+[Static Array](implementations/static_array.py)
