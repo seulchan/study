@@ -8,7 +8,6 @@ def insertion_sort(data):
                 data[index2], data[index2 - 1] = data[index2 - 1], data[index2]
             else:
                 break
-    return data
 
 
 if __name__ == "__main__":

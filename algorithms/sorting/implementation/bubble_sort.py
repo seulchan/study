@@ -11,7 +11,6 @@ def bubble_sort(data):
 
         if swap == False:
             break
-    return data
 
 
 if __name__ == "__main__":

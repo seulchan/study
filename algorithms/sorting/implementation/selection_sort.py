@@ -9,7 +9,7 @@ def selection_sort(data):
             if data[lowest] > data[index]:
                 lowest = index
         data[lowest], data[stand] = data[stand], data[lowest]
-    return data
+
 
 
 if __name__ == "__main__":
