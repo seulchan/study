@@ -2,3 +2,4 @@
 
 ## Problems
 - [Reverse Linked List](solutions/leet_206.py)
+- [Merge Two Sorted Lists](solutions/leet_21.py)
