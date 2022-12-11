@@ -6,7 +6,7 @@ class DynamicArray:
         self.arr = [0] * 2 # Array of capacity = 2
 
     # Insert n in the last position of the array
-    def pushback(self, n):
+    def push_back(self, n):
         if self.length == self.capacity:
             self.resize()
 
@@ -25,7 +25,7 @@ class DynamicArray:
         self.arr = newArr
 
     # Remove the last element in the array
-    def popback(self):
+    def pop_back(self):
         if self.length > 0:
             self.length -= 1
 

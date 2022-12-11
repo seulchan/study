@@ -14,29 +14,29 @@ class LinkedList:
         self.head.next = self.tail
         self.tail.prev = self.head
 
-    def insertFront(self, val):
-        newNode = ListNode(val)
-        newNode.prev = self.head
-        newNode.next = self.head.next
+    def insert_front(self, val):
+        new_node = ListNode(val)
+        new_node.prev = self.head
+        new_node.next = self.head.next
 
-        self.head.next.prev = newNode
-        self.head.next = newNode
+        self.head.next.prev = new_node
+        self.head.next = new_node
 
-    def insertEnd(self, val):
-        newNode = ListNode(val)
-        newNode.next = self.tail
-        newNode.prev = self.tail.prev
+    def insert_end(self, val):
+        new_node = ListNode(val)
+        new_node.next = self.tail
+        new_node.prev = self.tail.prev
 
-        self.tail.prev.next = newNode
-        self.tail.prev = newNode
+        self.tail.prev.next = new_node
+        self.tail.prev = new_node
 
     # Remove first node after dummy head (assume it exists)
-    def removeFront(self):
+    def remove_front(self):
         self.head.next.next.prev = self.head
         self.head.next = self.head.next.next
 
     # Remove last node before dummy tail (assume it exists)
-    def removeEnd(self):
+    def remove_end(self):
         self.tail.prev.prev.next = self.tail
         self.tail.prev = self.tail.prev.prev
 

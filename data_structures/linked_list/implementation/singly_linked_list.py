@@ -11,7 +11,7 @@ class LinkedList:
         self.head = ListNode(-1)
         self.tail = self.head
 
-    def insertEnd(self, val):
+    def insert_end(self, val):
         self.tail.next = ListNode(val)
         self.tail = self.tail.next
 
@@ -28,7 +28,7 @@ class LinkedList:
                 self.tail = curr
             curr.next = curr.next.next
 
-    def print(self):
+    def print_all(self):
         curr = self.head.next
         while curr:
             print(curr.val, " -> ", end="")

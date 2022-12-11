@@ -11,3 +11,4 @@
 
 ## Implementation
 - [Bubble Sort](implementation/bubble_sort.py)
+- [Insertion Sort](implementation/insertion_sort.py)

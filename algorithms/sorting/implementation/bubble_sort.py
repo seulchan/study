@@ -1,6 +1,7 @@
 import random
 
-def bubblesort(data):
+
+def bubble_sort(data):
     for index in range(len(data)-1):
         swap = False
         for index2 in range(len(data)-index-1):
@@ -12,8 +13,9 @@ def bubblesort(data):
             break
     return data
 
+
 if __name__ == "__main__":
     data_list = random.sample(range(100), 50)
     print("before sort:", data_list)
-    bubblesort(data_list)
+    bubble_sort(data_list)
     print("after sort:", data_list)

@@ -10,15 +10,15 @@ class Queue:
         self.left = self.right = None
 
     def enqueue(self, val):
-        newNode = ListNode(val)
+        new_node = ListNode(val)
 
         # Queue is non-empty
         if self.right:
-            self.right.next = newNode
+            self.right.next = new_node
             self.right = self.right.next
         # Queue is empty
         else:
-            self.left = self.right = newNode
+            self.left = self.right = new_node
 
     def dequeue(self):
         # Queue is empty
