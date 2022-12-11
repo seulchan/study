@@ -7,4 +7,4 @@
 | Peek/Top 	  | O ( 1 )  	    |
 
 ## Implementation
-- [Stack](implementations/stack.py)
+- [Stack](implementation/stack.py)

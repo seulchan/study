@@ -8,4 +8,4 @@
 |  Remove Middle 	| O ( n )  	|
 
 ## Implementation
-- [Static Array](implementations/static_array.py)
+- [Static Array](implementation/static_array.py)
