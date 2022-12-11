@@ -1,4 +1,4 @@
-# Linked List
+# Queue
 
 | Operation 	 | Big-O Time  	 |
 |-------------|---------------|
