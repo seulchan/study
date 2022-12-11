@@ -1,5 +1,5 @@
 # Coding Problems
 
 ## Categories
-- [Leetcode](arrays/README.md)
-- [백준](stack/README.md)
+- [Leetcode](leetcode/README.md)
+- [백준](baekjoon/README.md)
