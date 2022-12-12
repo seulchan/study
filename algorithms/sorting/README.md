@@ -6,7 +6,7 @@
 | Insertion Sort 	 | O ( n^2 )  	   |
 | Selection Sort 	 | O ( n^2 ) 	    |
 | Merge Sort       | O ( n log n )	 |
-| Quick Sort       | 	              |
+| Quick Sort       | O ( n^2 )	     |
 | Bucket Sort      | 	              |
 
 ## Implementation
@@ -14,3 +14,4 @@
 - [Insertion Sort](implementation/insertion_sort.py)
 - [Selection Sort](implementation/selection_sort.py)
 - [Merge Sort](implementation/merge_sort.py)
+- [Quick Sort](implementation/quick_sort.py)
