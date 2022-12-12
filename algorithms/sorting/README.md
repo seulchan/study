@@ -13,3 +13,4 @@
 - [Bubble Sort](implementation/bubble_sort.py)
 - [Insertion Sort](implementation/insertion_sort.py)
 - [Selection Sort](implementation/selection_sort.py)
+- [Merge Sort](implementation/merge_sort.py)
