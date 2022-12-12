@@ -1,13 +1,13 @@
 # Sorting
 
-| Sort 	           | Big-O Time  	                      |
-|------------------|------------------------------------|
-| Bubble Sort	     | O ( n^2 )  	                       |
-| Insertion Sort 	 | O ( n^2 )  	                       |
-| Selection Sort 	 | O ( n^2 ) 	                        |
-| Merge Sort       | O ( n log n )	                     |
-| Quick Sort       | O ( n^2 )	(avg. case O (n log n) ) |
-| Bucket Sort      | O ( n )                            |
+| Sort 	                     | Big-O Time  	                      |
+|----------------------------|------------------------------------|
+| Bubble Sort	(stable)       | O ( n^2 )  	                       |
+| Insertion Sort (stable)	   | O ( n^2 )  	                       |
+| Selection Sort (unstable) 	 | O ( n^2 ) 	                        |
+| Merge Sort (stable)        | O ( n log n )	                     |
+| Quick Sort (unstable)      | O ( n^2 )	(avg. case O (n log n) ) |
+| Bucket Sort (unstable)     | O ( n )                            |
 
 ## Implementation
 - [Bubble Sort](implementation/bubble_sort.py)
