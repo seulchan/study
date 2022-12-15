@@ -3,8 +3,9 @@ class ListNode:
         self.val = val
         self.next = None
 
+
 # Implementation for Singly Linked List
-class LinkedList:
+class SinglyLinkedList:
     def __init__(self):
         # Init the list with a 'dummy' node which makes
         # removing a node from the beginning of list easier.
