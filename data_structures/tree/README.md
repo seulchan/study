@@ -1,11 +1,11 @@
 # Tree
 
 ### Binary Search Tree
-| Operation 	 | Big-O Time  	 |
-|-------------|---------------|
-| Push 	      | O ( 1 )  	    |
-| Pop 	       | O ( 1 )  	    |
-| Peek/Top 	  | O ( 1 )  	    |
+| Operation 	 | Average case  	 | Worst case |
+|-------------|-----------------|------------|
+| Search 	    | O ( log n )  	  | O ( n )    |
+| Insert 	    | O ( log n )  	  | O ( n )    |
+| Delete 	    | O ( log n )  	  | O ( n )    |
 
 
 ## Implementation
