@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/11650
+# memory usage: 50064 KB, time usage: 364 ms
 import sys
 from queue import PriorityQueue
 

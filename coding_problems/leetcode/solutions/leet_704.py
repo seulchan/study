@@ -1,6 +1,8 @@
+# https://leetcode.com/problems/binary-search/
+# memory usage: 15.5 MB, time usage: 319 ms
+
 import random
 from typing import List
-# https://leetcode.com/problems/binary-search/
 
 
 def binary_search(nums: List[int], target: int) -> int:

@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/18870
+# memory usage: 149792 KB, time usage: 1916 ms
 import sys
 
 if __name__ == "__main__":

@@ -1,5 +1,6 @@
-from typing import Optional
 # https://leetcode.com/problems/merge-two-sorted-lists/
+# memory usage: 42.3 MB, time usage: 1 ms
+from typing import Optional
 
 
 class ListNode:

@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/valid-parentheses/
+# memory usage: 13.9 MB, time usage: 61 ms
 
 def is_valid(s: str) -> bool:
     stack = []

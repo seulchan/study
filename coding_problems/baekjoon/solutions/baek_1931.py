@@ -1,7 +1,8 @@
+# https://www.acmicpc.net/problem/1931
+# memory usage: 57416 KB, time usage: 276 ms
 import sys
 
 
-# 57416 KB, 276 ms
 if __name__ == "__main__":
     num = int(sys.stdin.readline())
     meeting_list = [list(map(int, sys.stdin.readline().split())) for i in range(num)]

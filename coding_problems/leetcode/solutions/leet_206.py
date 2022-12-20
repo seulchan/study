@@ -1,5 +1,7 @@
-from typing import Optional
 # https://leetcode.com/problems/reverse-linked-list/
+# memory usage: 42.6 MB, time usage: 0 ms
+from typing import Optional
+
 
 class ListNode:
 

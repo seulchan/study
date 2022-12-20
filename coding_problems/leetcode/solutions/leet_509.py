@@ -1,4 +1,6 @@
 # https://leetcode.com/problems/fibonacci-number/
+# memory usage: 13.8 MB, time usage: 2255 ms
+
 
 def fib(n: int) -> int:
     if n <= 1:
