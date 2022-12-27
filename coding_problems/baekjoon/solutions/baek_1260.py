@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/1260
+# memory usage: 34124 KB, time usage: 300 ms
 import sys
 from collections import deque
 
