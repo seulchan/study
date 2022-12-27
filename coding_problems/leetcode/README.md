@@ -14,3 +14,6 @@
 ### Recursive
 - [Fibonacci Number](solutions/leet_509.py)
 - [Add Two Numbers](solutions/leet_2.py)
+
+### BFS & DFS
+- [Number of Islands](solutions/leet_200.py)
