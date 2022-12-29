@@ -13,3 +13,4 @@
 
 ### BFS & DFS
 - [DFS와 BFS](solutions/baek_1260.py)
+- [벽 부수고 이동하기](solutions/baek_2206.py)
