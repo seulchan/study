@@ -34,10 +34,10 @@ if __name__ == "__main__":
 
     for _ in range(m):
         src, dst = map(int, sys.stdin.readline().split())
-        if src not in adjList:
-            adjList[src] = []
-        if dst not in adjList:
-            adjList[dst] = []
+        # if src not in adjList:
+        #     adjList[src] = []
+        # if dst not in adjList:
+        #     adjList[dst] = []
         adjList[src].append(dst)
         adjList[dst].append(src)
 
