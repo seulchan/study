@@ -13,6 +13,7 @@
 ### Stack
 - [Valid Parentheses](solutions/leet_20.py)
 - [Baseball Game](solutions/leet_682.py)
+- [Min Stack](solutions/leet_155.py)
 
 ### Binary Search
 - [Binary Search](solutions/leet_704.py)
