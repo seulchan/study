@@ -1,6 +1,9 @@
 # Leetcode Coding Problems
 
 ## Problems
+### Arrays
+- [Remove Element](solutions/leet_27.py)
+
 ### Linked List
 - [Reverse Linked List](solutions/leet_206.py)
 - [Merge Two Sorted Lists](solutions/leet_21.py)
@@ -17,3 +20,4 @@
 
 ### BFS & DFS
 - [Number of Islands](solutions/leet_200.py)
+
