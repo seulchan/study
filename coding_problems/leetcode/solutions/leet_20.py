@@ -1,19 +1,38 @@
 # https://leetcode.com/problems/valid-parentheses/
-# memory usage: 13.9 MB, time usage: 61 ms
+# memory usage: 13.9 MB, time usage: 37 ms
+
 
 def is_valid(s: str) -> bool:
-    stack = []
-    close_to_open = {")": "(", "]": "[", "}": "{"}
-    for c in s:
-        if c in close_to_open:
-            if stack and stack[-1] == close_to_open[c]:
-                stack.pop()
-            else:
-                return False
-        else:
-            stack.append(c)
+    symbol_map = {')': '(', ']': '[', '}': '{'}
+    open_parentheses = []
 
-    return True if not stack else False
+    for symbol in list(s):
+        if symbol in ['(', '{', '[']:
+            open_parentheses.append(symbol)
+            continue
+
+        if len(open_parentheses) == 0 or open_parentheses.pop() != symbol_map[symbol]:
+            return False
+
+    if len(open_parentheses) > 0:
+        return False
+
+    return True
+
+
+def isValid2(s: str) -> bool:
+    Map = {")": "(", "]": "[", "}": "{"}
+    stack = []
+
+    for c in s:
+        if c not in Map:
+            stack.append(c)
+            continue
+        if not stack or stack[-1] != Map[c]:
+            return False
+        stack.pop()
+
+    return not stack
 
 
 if __name__ == "__main__":
