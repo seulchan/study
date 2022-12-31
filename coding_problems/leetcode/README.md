@@ -4,6 +4,7 @@
 ### Arrays
 - [Remove Element](solutions/leet_27.py)
 - [Remove Duplicates from Sorted Array](solutions/leet_26.py)
+- [Concatenation of Array](solutions/leet_1929.py)
 
 ### Linked List
 - [Reverse Linked List](solutions/leet_206.py)

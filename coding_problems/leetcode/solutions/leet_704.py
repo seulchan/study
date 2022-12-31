@@ -20,6 +20,7 @@ def binary_search(nums: List[int], target: int) -> int:
 
     return -1
 
+
 if __name__ == "__main__":
     target = 9
     data_list = random.sample(range(20), 10)
