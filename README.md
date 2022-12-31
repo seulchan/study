@@ -1,6 +1,6 @@
-# Study
+# DSA Study
 
-공부한 걸 기록해두는 곳입니다. 
+자료구조와 알고리즘 공부한 걸 기록해두고 코딩 테스트 문제를 푼 걸 저장해두는 공간입니다.
 
 ## Topics of Study
 - [Algorithms](algorithms/README.md)
