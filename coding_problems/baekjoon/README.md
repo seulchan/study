@@ -19,3 +19,6 @@
 ### ArrayList
 - [최소, 최대](solutions/baek_10818.py)
 - [나는 요리사다](solutions/baek_2953.py)
+
+### Stack
+- [스택](solutions/baek_10828.py)
