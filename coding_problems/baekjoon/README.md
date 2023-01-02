@@ -22,3 +22,4 @@
 
 ### Stack
 - [스택](solutions/baek_10828.py)
+- [쇠막대기](solutions/baek_10799.py)
