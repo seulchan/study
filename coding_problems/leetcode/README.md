@@ -16,6 +16,9 @@
 - [Baseball Game](solutions/leet_682.py)
 - [Min Stack](solutions/leet_155.py)
 
+### Queue
+- [Implement Stack using Queues](solutions/leet_225.py)
+
 ### Binary Search
 - [Binary Search](solutions/leet_704.py)
 
@@ -25,4 +28,5 @@
 
 ### BFS & DFS
 - [Number of Islands](solutions/leet_200.py)
+
 
