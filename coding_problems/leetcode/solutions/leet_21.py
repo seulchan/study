@@ -60,6 +60,7 @@ def print_all(root):
         curr = curr.next
     print()
 
+
 if __name__ == "__main__":
     list1 = ListNode(1)
     list1.next = ListNode(2)
