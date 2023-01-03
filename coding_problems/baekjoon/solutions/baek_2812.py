@@ -15,4 +15,6 @@ while k > 0:
     result.pop()
     k -= 1
 
+# or instead of while loop
+# print(''.join(map(str, result[:n-k])))
 print(''.join(map(str, result)))
