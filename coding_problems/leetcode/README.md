@@ -18,6 +18,7 @@
 
 ### Queue
 - [Implement Stack using Queues](solutions/leet_225.py)
+- [Number of Students Unable to Eat Lunch](solutions/leet_1700.py)
 
 ### Binary Search
 - [Binary Search](solutions/leet_704.py)
