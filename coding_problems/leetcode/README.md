@@ -32,4 +32,7 @@
 ### BFS & DFS
 - [Number of Islands](solutions/leet_200.py)
 
+### Dynamic Programming
+- [Climbing Stairs](solutions/leet_70.py)
+
 
