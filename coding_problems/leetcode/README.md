@@ -11,6 +11,7 @@
 - [Reverse Linked List](solutions/leet_206.py)
 - [Merge Two Sorted Lists](solutions/leet_21.py)
 - [Design Linked List](solutions/leet_707.py)
+- [Design Browser History](solutions/leet_1472.py)
 
 ### Stack
 - [Valid Parentheses](solutions/leet_20.py)
