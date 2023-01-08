@@ -34,5 +34,6 @@
 
 ### Dynamic Programming
 - [Climbing Stairs](solutions/leet_70.py)
+- [N-th Tribonacci Number](solutions/leet_1137.py)
 
 
