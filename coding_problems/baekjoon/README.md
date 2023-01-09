@@ -27,3 +27,6 @@
 
 ### DP
 - [설탕 배달](solutions/baek_2839.py)
+
+### Greedy
+- [기타줄](solutions/baek_1049.py)
